@@ -1,9 +1,81 @@
 /* font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif; */
 
-/* root:  212121*/
+:root {
+	--primary-text-color: #212121;
+	--secondary-text-color: #757575;
+	--button-white-color: #fff;
+	--accent-text-color: #2196f3;
+}
 
 body {
 	font-family: Roboto, sans-serif;
-	color: ;
+	color: var(--primary-text-color);
+	letter-spacing: 0.03em;
+}
+
+.link {
+	text-decoration: none;
+}
+
+.item {
+	list-style-type: none;
+}
+
+/* Хедер */
+
+.logo {
+	font-family: Raleway;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	color: #2196f3;
+}
+
+.header-logo {
+	color: #000000;
+}
+
+.header-link {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	color: var(--primary-text-color);
+}
+
+.current {
+	color: var(--accent-text-color);
+}
+
+.contacts-link {
+	color: var(--secondary-text-color);
+}
+
+.header-link:hover,
+.header-link:focus,
+.footer-link:hover,
+.footer-link:focus {
+	color: var(--accent-text-color);
+}
+
+/* Футер */
+
+.footer {
+	background-color: #2f303a;
+}
+
+.footer-logo {
+	color: #fff;
+}
+
+.footer-link {
+	font-style: normal;
+	font-size: 14px;
+	line-height: 1.71;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-first-link {
+	color: #fff;
 }
