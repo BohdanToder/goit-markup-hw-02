@@ -15,6 +15,7 @@
 	--main-logo-color: #2196f3;
 	--second-logo-color: #000;
 	--third-logo-color: #fff;
+	--hero-button-hover-bgcolor: #188ce8;
 }
 
 body {
@@ -99,8 +100,7 @@ body {
 
 .hero-button:hover,
 .hero-button:focus {
-	color: var(--button-first-text-color);
-	background-color: var(--button-first-bg-color);
+	background-color: var(--hero-button-hover-bgcolor);
 }
 
 /* Особенности работы */
